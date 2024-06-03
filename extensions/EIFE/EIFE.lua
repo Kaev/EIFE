@@ -51,7 +51,6 @@ local function ShowStory(player, creature, story, storyPartId)
     if part.options then
         for optionId, option in ipairs(part.options) do
             if option.condition == nil or option.condition(story, player, creature)  then
-                print(option.icon);
                 player:GossipMenuAddItem(option.icon or 0, option.text, storyPartId, optionId);
             end
             
