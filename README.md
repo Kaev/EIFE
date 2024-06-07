@@ -10,6 +10,9 @@ I built this so I can quickly give places in the world a little more depth and m
 ## Example
 You can find an example story which shows off all current features in the `example_story.lua` file.
 
+## Installation
+Just make sure that EIFE.lua is inside your extensions folder (e.g. `lua_scripts/extensions/EIFE/EIFE.lua`) and that your stories are outside of the extensions folder (e.g. `lua_scripts/stories/example_story.lua`).
+
 ## Documentation
 
 ### Text Placeholders
